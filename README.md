@@ -13,5 +13,5 @@ notebook ![](pics/venv.png)
 ```1. linkedin jobs miners.ipynb```
 4. Run the recommender and enjoy the process :)\
 ```2. linkedin jobs recommender.ipynb```
-![](pics/recommender view.png)
-![](pics/vacany view.png)
+![](pics/recommender_view.png)
+![](pics/vacany_view.png)
