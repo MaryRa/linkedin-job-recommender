@@ -17,7 +17,7 @@ Mine/parse LinkedIn jobs and train the model to find the best options for you.
 ```python parse_data.py```
 8. As soon as you see ```vacancy.csv``` file in local directory, you can run 
 the recommender\
-```2. linkedin jobs recommender.ipynb```
+```linkedin jobs recommender.ipynb```
 ![](pics/recommender_view.png)
 ![](pics/vacany_view.png)
 P.S. In order to use created environment, you should choose it in your jupyter 
