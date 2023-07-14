@@ -3,3 +3,8 @@ joblib~=1.1.1
 numpy~=1.23.5
 pymorphy2~=0.9.1
 scikit-learn~=1.2.1
+selenium==4.10.0
+ipywidgets==7.6.5
+IPython==8.10.0
+imbalanced-learn==0.10.1
+pyyaml~=6.0
