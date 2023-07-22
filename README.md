@@ -20,5 +20,7 @@ the recommender\
 ```linkedin jobs recommender.ipynb```
 ![](pics/recommender_view.png)
 ![](pics/vacany_view.png)
+
+
 P.S. In order to use created environment, you should choose it in your jupyter 
 notebook ![](pics/venv.png)
