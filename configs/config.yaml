@@ -1,16 +1,21 @@
 chrome-driver-path: D:\chromedriver\chromedriver.exe
 
 search-urls:
-  ML London (24 hours): https://www.linkedin.com/jobs/search/?currentJobId=3656735925&distance=25&f_TPR=r86400&f_WT=1%2C3&geoId=102257491&keywords=machine%20learning
-  DS London (24 hours): https://www.linkedin.com/jobs/search/?currentJobId=3656735925&distance=25&f_TPR=r86400&f_WT=1%2C3&geoId=102257491&keywords=data%20scientist
-  DS worldwide (24 hours): https://www.linkedin.com/jobs/search/?currentJobId=3658366250&f_TPR=r86400&f_WT=2&geoId=92000000&keywords=data%20scientist
-  ML worldwide (24 hours): https://www.linkedin.com/jobs/search/?currentJobId=3656738385&f_TPR=r86400&f_WT=2&geoId=92000000&keywords=machine%20learning
+#  ML London (24 hours): https://www.linkedin.com/jobs/search/?currentJobId=3656735925&distance=25&f_TPR=r86400&f_WT=1%2C3&geoId=102257491&keywords=machine%20learning
+#  DS London (24 hours): https://www.linkedin.com/jobs/search/?currentJobId=3656735925&distance=25&f_TPR=r86400&f_WT=1%2C3&geoId=102257491&keywords=data%20scientist
+#  DS worldwide (24 hours): https://www.linkedin.com/jobs/search/?currentJobId=3658366250&f_TPR=r86400&f_WT=2&geoId=92000000&keywords=data%20scientist
+#  ML worldwide (24 hours): https://www.linkedin.com/jobs/search/?currentJobId=3656738385&f_TPR=r86400&f_WT=2&geoId=92000000&keywords=machine%20learning
 
 #  ML London (7 days): https://www.linkedin.com/jobs/search/?currentJobId=3654852999&distance=25&f_TPR=r604800&f_WT=1%2C3&geoId=102257491&keywords=machine%20learning
 #  DS London (7 days): https://www.linkedin.com/jobs/search/?currentJobId=3656024772&distance=25&f_TPR=r604800&f_WT=1%2C3&geoId=102257491&keywords=data%20scientist
 #  DS worldwide (7 days): https://www.linkedin.com/jobs/search/?currentJobId=3655100198&f_TPR=r604800&f_WT=2&geoId=92000000&keywords=data%20scientist
 #  ML worldwide (7 days): https://www.linkedin.com/jobs/search/?currentJobId=3655100198&f_TPR=r604800&f_WT=2&geoId=92000000&keywords=machine%20learning
-#
+
+  ML London (month): https://www.linkedin.com/jobs/search/?currentJobId=3647807292&distance=25&f_TPR=r2592000&f_WT=1%2C3&geoId=102257491&keywords=machine%20learning
+  DS London (month): https://www.linkedin.com/jobs/search/?currentJobId=3649765749&distance=25&f_TPR=r2592000&f_WT=1%2C3&geoId=102257491&keywords=data%20scientist
+  DS worldwide (month): https://www.linkedin.com/jobs/search/?currentJobId=3645232647&f_TPR=r2592000&f_WT=2&geoId=92000000&keywords=data%20scientist
+  ML worldwide (month): https://www.linkedin.com/jobs/search/?currentJobId=3645232647&f_TPR=r2592000&f_WT=2&geoId=92000000&keywords=machine%20learning
+
 #  ML London (all): https://www.linkedin.com/jobs/search/?currentJobId=3514645943&distance=25&f_WT=1%2C3&geoId=102257491&keywords=machine%20learning
 #  DS London (all): https://www.linkedin.com/jobs/search/?currentJobId=3514645943&distance=25&f_WT=1%2C3&geoId=102257491&keywords=data%20scientist
 #  DS worldwide (all): https://www.linkedin.com/jobs/search/?currentJobId=3635233388&f_WT=2&geoId=92000000&keywords=data%20scientist
