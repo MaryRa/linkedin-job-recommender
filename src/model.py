@@ -1,7 +1,6 @@
 from sklearn.linear_model import LogisticRegression
 from imblearn.over_sampling import RandomOverSampler
 from sklearn.metrics import roc_auc_score
-import re
 from textwrap import wrap
 
 
