@@ -221,8 +221,8 @@ class LinkedInParser:
                     if success:
                         text = self._read_vacancy_text()
                         df.loc[max_ind+i, 'text'] = text
-                        df.loc[max_ind+i, 'language'
-                        ] = langid.classify(text[:100])[0]
+                        df.loc[max_ind+i, 'language'] = langid.classify(text
+                                                                        )[0]
                     if refreshed:
                         list_vacancies = []
                         while n > len(list_vacancies):
