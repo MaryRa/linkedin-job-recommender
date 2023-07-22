@@ -139,7 +139,7 @@ class LinkedInParser:
                                   'location', 'date']]).all(
             axis=1)
         if same_indexes.sum() > 1:
-            if info['link'] is not None:
+            if 'link' in info.index and info['link'] is not None:
                 df.loc[same_indexes, 'link'] = info['link']
         return same_indexes.sum() > 1, df
 
@@ -221,8 +221,11 @@ class LinkedInParser:
                     if success:
                         text = self._read_vacancy_text()
                         df.loc[max_ind+i, 'text'] = text
-                        df.loc[max_ind+i, 'language'] = langid.classify(text
-                                                                        )[0]
+                        try:
+                            df.loc[max_ind+i, 'language'
+                            ] = langid.classify(text)[0]
+                        except:
+                            pass
                     if refreshed:
                         list_vacancies = []
                         while n > len(list_vacancies):
